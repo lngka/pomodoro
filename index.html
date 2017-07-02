@@ -11,8 +11,41 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
-
+    <div class="container-fluid">
+      <!-- control -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col text-center">
+          <h1 class="display-4">Session</h1>
+          <button id="sessionMinus">-</button>
+          <span id="sessionTime">25</span>
+          <button id="sessionPlus">+</button>
+        </div>
+        <div class="col text-center">
+          <h1 class="display-4">Break</h1>
+          <button id="breakMinus">-</button>
+          <span id="breakTime">5</span>
+          <button id="breakPlus">+</button>
+        </div>
+        <div class="col"></div>
+      </div>
+      <!-- display -->
+      <div class="row">
+          <div id="circle-container">
+            <div id="circle">
+              <div id="innerTextbox" class="text-center">
+                <table>
+                  <tr>
+                    <td id="minute">25</td>
+                    <td >:</td>
+                    <td id="second">00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

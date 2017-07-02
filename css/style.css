@@ -1,0 +1,63 @@
+body {
+  background-color: #0D0100;
+  color: white;
+  padding-top: 5rem;
+}
+#breakTime, #sessionTime {
+  font-size: 1.5rem;
+}
+
+#circle-container{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top : 2rem;
+  margin-left: auto;
+  margin-right: auto;
+	padding : 0;
+
+}
+
+#circle{
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  border: solid white 1px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#innerTextbox{
+  min-width: 70%;
+  min-height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+td {
+  font-size: 3rem;
+}
+#minute {
+  margin-left: auto;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+#second{
+  margin-right: auto;
+  margin-left: 1px;
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+tr{
+  display: flex;
+  align-items: baseline;
+}
